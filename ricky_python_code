@@ -1,0 +1,49 @@
+#this code reads to files and then gets the percentage of similar words then it will tell you the different 
+#words that was found
+#this will be a small sample of what it could be, for this to be work fully we would need a database of the news
+#we are checking and we use those to check fake news websites
+
+
+#need to create two files one named= fakeNews, and the other named= realNews. 
+#the realNews will have the info from a credible source
+#the fakeNews will have info from a sketchy source
+#pyton_code underneth:
+
+
+
+import string
+
+# Function to calculate the similarity percentage
+def calculateSimilarityPercentage(matchCount, totalCount):
+    return (matchCount / totalCount) * 100.0
+
+# Function to split a string into words
+def splitStringIntoWords(s):
+    # Remove punctuation and convert to lowercase
+    s = s.translate(str.maketrans('', '', string.punctuation)).lower()
+    # Split the string into words
+    return s.split()
+
+# Open the two files
+with open('realNews') as file1, open('fakeNews') as file2:
+    # Read the contents of the files
+    file1Content = file1.read()
+    file2Content = file2.read()
+
+# Split the contents of the files into words
+file1Words = splitStringIntoWords(file1Content)
+file2Words = splitStringIntoWords(file2Content)
+
+# Find the differences between the two files
+differences = list(set(file1Words) - set(file2Words))
+
+# Calculate the similarity percentage
+matchCount = len(file1Words) - len(differences)
+totalCount = max(len(file1Words), len(file2Words))
+similarityPercentage = calculateSimilarityPercentage(matchCount, totalCount)
+
+# Output the results
+print(f"Similarity Percentage: {similarityPercentage:.2f}%")
+print("Words that are different between the two files:")
+for word in differences:
+    print(word)
