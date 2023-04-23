@@ -1,7 +1,7 @@
 #this code reads to files and then gets the percentage of similar words then it will tell you the different 
 #words that was found
-#this will be a small sample of what it could be, for this to be work fully we would need a database of the news
-#we are checking and we use those to check fake news websites
+#this will be a small sample of what it could be, for this to work fully we would need a database of the news
+#we are checking and we would use those to check fake news websites of the same topic
 
 
 #need to create two files one named= fakeNews, and the other named= realNews. 
