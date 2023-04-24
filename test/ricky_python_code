@@ -31,20 +31,18 @@ with open('realNews') as file1, open('fakeNews') as file2:
     file1Content = file1.read()
     file2Content = file2.read()
 
-# Split the contents of the files into words
+# Split the contents of the files into words and stores them
 file1Words = splitStringIntoWords(file1Content)
 file2Words = splitStringIntoWords(file2Content)
 
 # Find the differences between the two files
 differences = list(set(file1Words) - set(file2Words))
 
-# Calculate the similarity percentage
+# Gets the similarity percentage between the two files
 matchCount = len(file1Words) - len(differences)
 totalCount = max(len(file1Words), len(file2Words))
 similarityPercentage = calculateSimilarityPercentage(matchCount, totalCount)
 
-# Output the results
+# Output the results, shows how similiar they are 
 print(f"Similarity Percentage: {similarityPercentage:.2f}%")
-print("Words that are different between the two files:")
-for word in differences:
-    print(word)
+
