@@ -1,7 +1,4 @@
 # README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 	 With a rise in fake news being created and the development of artificial intelligence, the gradually
 	 increasing use of AI to make fake news is becoming a problem. Grover is a dual function AI with the 
