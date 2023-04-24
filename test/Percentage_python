@@ -1,12 +1,12 @@
-#this code reads to files and then gets the percentage of similar words then it will tell you the different 
+#This code reads to files and then gets the percentage of similar words then it will tell you the different 
 #words that was found
 #this will be a small sample of what it could be, for this to work fully we would need a database of the news
 #we are checking and we would use those to check fake news websites of the same topic
 
 
-#need to create two files one named= fakeNews, and the other named= realNews. 
-#the realNews will have the info from a credible source
-#the fakeNews will have info from a sketchy source
+#Need to create two files one named= fakeNews, and the other named= realNews. 
+#The realNews will have the info from a credible source
+#The fakeNews will have info from a sketchy source
 
 #pyton_code underneth:
 
