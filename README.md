@@ -68,9 +68,9 @@ After having the enviorment set up simply open the detector.ipnyb file and run t
 
 If you want to try adding your own articles simply add them to the repo or to the docs and change the filepath of it on the input and output:
 
-``input_path = "(yourfilepath)"
+``input_path = "(yourfilepath)"``
 
-output_path = "(yourfilepath)"``
+``output_path = "(yourfilepath)"``
 
 
 ### Contribution guidelines ###
