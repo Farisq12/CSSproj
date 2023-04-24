@@ -17,7 +17,43 @@
 
 ### How do I get set up? ###
 
-	* Summary of set up
+#### Summary of set up ####
+
+**Clone the repoistory onto your local machine**
+
+**How to run**	
+
+Prerequisites:
+
+You must be able to run a .ipnyb file and vscode or other another ide of your choice that supports juypeter notebooks. If you already have this set up, ignore the guide. If you do not, here is a guide:
+
+Ensure that you have the following installed on your local machine:
+
+Python 3 (version 3.6 or later): You can download and install Python from the official website.
+pip: This is the package installer for Python. It usually comes pre-installed with Python. You can verify if pip is installed by running pip --version in your terminal/command prompt.
+Step-by-Step Instructions
+
+Step 1: Install Jupyter Notebook
+Open your terminal (Mac/Linux) or command prompt (Windows).
+Run the following command to install Jupyter Notebook:
+Copy code:
+``pip install notebook``
+
+Step 2: Launch Jupyter Notebook
+Navigate to the folder where your .ipynb file is located using the terminal or command prompt.
+Run the following command to start Jupyter Notebook:
+Copy code
+``jupyter notebook``
+
+This will launch a new browser window or open a new tab in your default web browser, displaying the Jupyter Notebook interface.
+
+Step 3: Open and Run Your .ipynb File
+In the Jupyter Notebook interface, locate and click on the .ipynb file you want to run. This will open the file in a new browser tab.
+To run a code cell in the Jupyter Notebook, click on the cell and press Shift + Enter or click the "Run" button in the toolbar.
+Continue executing the cells in the notebook by selecting and running them one by one or by clicking "Kernel" > "Restart & Run All" in the menu bar to run all cells in the notebook.
+
+**Other 
+
 	* Configuration
 	* Dependencies
 	* Database configuration
