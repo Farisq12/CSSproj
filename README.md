@@ -67,10 +67,10 @@ You must also have PyPDF2 installed for pdf parsing functionality, it's not trul
 After having the enviorment set up simply open the detector.ipnyb file and run the cells.
 
 If you want to try adding your own articles simply add them to the repo or to the docs and change the filepath of it on the input and output:
-``
-input_path = "(yourfilepath)"
 
-output_path = "(yourfilepath)" ``
+``input_path = "(yourfilepath)"
+
+output_path = "(yourfilepath)"``
 
 
 ### Contribution guidelines ###
