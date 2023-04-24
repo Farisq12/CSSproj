@@ -72,6 +72,9 @@ If you want to try adding your own articles simply add them to the repo or to th
 
 ``output_path = "(yourfilepath)"``
 
+**To run correctness_percentage.ipnyb**
+
+Download into your desktop and run. It will ask what article you would like to read from a list. Once selected it will tell you what percentage of the article is correct.
 
 ### Contribution guidelines ###
 
