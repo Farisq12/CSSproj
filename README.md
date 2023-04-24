@@ -14,6 +14,10 @@
 	 was not working well with articles made by ChatGPT or other ais and edited by a human. 
 	 This repository is for working on a way to imporve on the current Grover System through authentifaication 
 	 using a hasheys. 
+	 
+This repository focuses on adding integrity to the original files that are altered by neural fake news generators such as grover.
+By implementing a hash key function that detects if a file has been altered or not it can add further security to grover in detecting
+neural fake news.
 
 ### How do I get set up? ###
 
@@ -25,6 +29,7 @@ Prerequisites:
 
 You must be able to run a .ipnyb file and vscode or other another ide of your choice that supports juypeter notebooks. If you already have this set up, ignore the guide. If you do not, here is a guide:
 
+**jupyter notebook installation guide**
 Ensure that you have the following installed on your local machine:
 
 Python 3 (version 3.6 or later): You can download and install Python from the official website.
@@ -50,13 +55,23 @@ In the Jupyter Notebook interface, locate and click on the .ipynb file you want 
 To run a code cell in the Jupyter Notebook, click on the cell and press Shift + Enter or click the "Run" button in the toolbar.
 Continue executing the cells in the notebook by selecting and running them one by one or by clicking "Kernel" > "Restart & Run All" in the menu bar to run all cells in the notebook.
 
-**Other 
+**for pdf parsing functionality**
+You must also have PyPDF2 installed for pdf parsing functionality, it's not truly needed for grover since grover itself only uses
+.txt files, but to use it use the command: ``pip install PyPDF2``
 
-	* Configuration
-	* Dependencies
-	* Database configuration
-	* How to run tests
-	* Deployment instructions
+
+#### Deployment instructions ####
+
+**To run detector.ipnyb**
+
+After having the enviorment set up simply open the detector.ipnyb file and run the cells.
+
+If you want to try adding your own articles simply add them to the repo or to the docs and change the filepath of it on the input and output:
+``
+input_path = "(yourfilepath)"
+
+output_path = "(yourfilepath)" ``
+
 
 ### Contribution guidelines ###
 
