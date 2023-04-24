@@ -17,9 +17,7 @@
 
 ### How do I get set up? ###
 
-#### Summary of set up ####
-
-**Clone the repoistory onto your local machine**
+**First clone the repoistory onto your local machine**
 
 **How to run**	
 
