@@ -82,4 +82,4 @@ If you want to try adding your own articles simply add them to the repo or to th
 		* Faris Q.
 		* Ricardo N.
 	* Article Developers
-		*
+		* Lois H.
