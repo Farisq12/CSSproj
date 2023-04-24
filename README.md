@@ -15,7 +15,7 @@
 	 This repository is for working on a way to imporve on the current Grover System through authentifaication 
 	 using a hasheys. 
 	 
-This repository focuses on adding integrity to the original files that are altered by neural fake news generators such as grover.
+This repository focuses on adding integrity and authenticity to the original files that are altered by neural fake news generators such as grover.
 By implementing a hash key function that detects if a file has been altered or not it can add further security to grover in detecting
 neural fake news.
 
